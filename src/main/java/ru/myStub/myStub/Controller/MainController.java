@@ -12,7 +12,7 @@ import java.text.ParseException;
 @Validated
 @RestController
 public class MainController {
-    int times = 2900;
+    int times = 1900;
 
     @GetMapping(value = "/date", consumes =  "application/xml; charset = UTF8")
     public String response(@RequestBody String dat) throws ParseException {
